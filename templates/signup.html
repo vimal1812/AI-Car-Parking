@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signupstyle.css') }}">
+</head>
+<body>
+ <div class="navbar">
+        <h1>AI Car Parking</h1>
+        <ul>
+            <li><a href="/hero">Home</a></li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/reg">SignUp</a></li>
+        </ul>
+    </div>
+     <div class="content">
+    <h1>Signup</h1>
+    {% if msg %}
+        <p>{{ msg }}</p>
+    {% endif %}
+    <form method="POST" action="/reg">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Signup">
+    </form>
+     </div>
+</body>
+</html>
