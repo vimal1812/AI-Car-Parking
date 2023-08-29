@@ -1,0 +1,68 @@
+   body {
+            margin: 0;
+            padding: 0;
+            background: url("s.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: red;
+            padding: 10px;
+            color: white;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 24px;
+            display: inline-block;
+        }
+
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            float: right;
+        }
+
+        .navbar ul li {
+            display: inline;
+            margin-left: 10px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .content {
+            padding: 20px;
+            color: white;
+        }
+
+        .content h2 {
+            font-size: 36px;
+            margin-top: 0;
+        }
+
+        .content h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .content {
+            text-align: center;
+            margin-top: 200px;
+        }
+
+        .center p {
+            font-size: 24px;
+        }
+
+        .center button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
